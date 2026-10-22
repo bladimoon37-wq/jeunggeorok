@@ -1,0 +1,24 @@
+증거록 V0.1 RC / Development Order V1.2
+
+Core:
+- src/core.ts — 데이터 모델, 증거번호, 날짜 정밀도, SHA-256, 검토, CSV/HTML 안전 출력
+- src/db.ts — IndexedDB CRUD, 사건 격리, 중복 방어, 참조 정리, atomic restore
+- src/backup.ts — JSZip 전체 백업/복원 검증
+- src/main.tsx — 한국어 UI 및 기능 흐름
+- src/style.css — Deep Forest Green / Warm Ivory UI
+
+Tests:
+- src/core.test.ts — 33 tests
+- src/backup.test.ts — 7 tests
+- src/db.test.ts — 7 tests (fake-indexeddb)
+
+Release/Docs:
+- README.md
+- USER_GUIDE.md
+- BROWSER_RELEASE_CHECKLIST.md
+- MINOS_REPORT.md
+- AIGIS_REPORT.md
+- SECURITY_NOTES.md
+- TEST_RESULTS.md
+- RELEASE_REPORT.md
+- GOOGLE_SEARCH_CONSOLE.md
